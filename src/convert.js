@@ -29,9 +29,9 @@ function convert(number, fromUnit, toUnit) {
 
     if (betweenUnit) {
         for (type in conversions) {
-            unit = conversions[type].hasOwnProperty(fromUnit) ? conversions[type][toUnit] : undefined;
+            unit = conversions[type].hasOwnProperty(toUnit) ? conversions[type][fromUnit] : undefined;
             if (unit) {
-                return fix(betweenUnit / (unit));
+                return betweenUnit / (unit);
             }
         }
         throw new Error("unrecognized to-unit");
