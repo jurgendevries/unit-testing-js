@@ -34,3 +34,8 @@ npm test
 ## Introductie testen met ESRI
 **Om code te testen waar je gebruik maakt van de ESRI JavaScript API zul je meer voor moeten bereiden dan alleen de locaties van je JavaScript files beschikbaar maken. In de volgende stappen een uitleg hoe je dit kunt doen voor de opdracht met modules.**
 
+* Clone het volgende project:
+```
+git clone https://github.com/jurgendevries/unit-testing-js.git 
+```
+* Volg de stappen in de README van het zojuist geclonede project.
