@@ -36,6 +36,6 @@ npm test
 
 * Clone het volgende project:
 ```
-git clone https://github.com/jurgendevries/unit-testing-js.git 
+git clone https://github.com/jurgendevries/dojo-modules-testing 
 ```
 * Volg de stappen in de README van het zojuist geclonede project.
